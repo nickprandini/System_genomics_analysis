@@ -11,6 +11,12 @@ The input data (RSEM tables of 27 samples) are not included; the notebooks read 
 | `03_part3_step2_clean.ipynb` | Same as step 2, with both bad samples excluded (SRR21355389 and SRR23914572) |
 | `03_part3_step3_extra.ipynb` | Extra analyses: sex check, cohort-corrected overview (plots only), brain-aging genes, aging signature vs interventions, gene length, variability with age, mitochondrial/ribosomal share |
 
+**To read the results on GitHub, open the pages in [`rendered/`](rendered/)** (code, tables and plots as Markdown; GitHub often fails to display the `.ipynb` files directly):
+[step 1b](rendered/03_part3_step1b_followup.md) ·
+[step 2](rendered/03_part3_step2.md) ·
+[step 2 clean](rendered/03_part3_step2_clean.md) ·
+[step 3 extra](rendered/03_part3_step3_extra.md)
+
 Comparisons are always made within one cohort: aging 21 mo vs 3 mo (covariate sex), aDR vs AL, YMP vs PBS.
 
 Required R packages: tidyverse, DESeq2, ggrepel, pbapply, gplots, viridis, fgsea, msigdbr, data.table, patchwork, IRkernel.
